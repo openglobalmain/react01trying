@@ -10,8 +10,10 @@
   color:rgb(51 102 51);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  text-decoration: none;
 }
+.item a{text-decoration:line-through;}
 .item:hover{
   background-color: rgb(102 153 102)
 }
-  
+.item:active{}
