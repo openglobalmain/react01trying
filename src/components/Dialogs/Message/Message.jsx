@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Message = (props) => {
     return <div className={s.message}>
-        разговорный блок
+        разговорный блок здесь будут сообщения!
         </div>
 }
 export default Message;

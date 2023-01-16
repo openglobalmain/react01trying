@@ -13,8 +13,8 @@ function App() {
       <Navbar />
       <div>
         <Routes>
-          <Route path='/dialogs' element={<Dialogs />}/>
-          <Route path='*' element={<Profile />}/>
+          <Route path='/dialogs*' element={<Dialogs />}/>
+          <Route path='/profile' element={<Profile />}/>
         </Routes>
       </div>
     </div>
